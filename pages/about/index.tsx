@@ -21,7 +21,6 @@ export default class AboutComponent extends Component {
   </div>;
 
   update = {
-    '/about': state => state,
     dateChange: (state, date) => ({ ...state, date }),
   };
 }

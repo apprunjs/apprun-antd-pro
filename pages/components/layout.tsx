@@ -1,8 +1,6 @@
 import app from 'apprun';
 import { PageContainer, ProLayout } from '@ant-design/pro-components';
 
-window['app-element'] = 'my-app';
-
 export default () => {
   return (
     <div
@@ -53,7 +51,7 @@ export default () => {
             breadcrumb: {},
           }}
         >
-          <div id="my-app"></div>
+          <div id="main-app"></div>
         </PageContainer>
       </ProLayout>
     </div>

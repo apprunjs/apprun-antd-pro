@@ -6,20 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./server --no_ssr",
-    "dev": "apprun-site build -w",
+    "dev": "apprun-site dev",
     "build": "apprun-site build -c"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "apprun": "^3.33.7",
-    "apprun-site": "^1.3.10",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.41"
-  },
   "type": "module",
-  "dependencies": {
-    "@ant-design/pro-components": "^2.7.15"
+  "devDependencies": {
+    "apprun": "^3.33.8",
+    "apprun-site": "^1.3.27",
+    "@ant-design/pro-components": "^2.7.19"
   }
 }

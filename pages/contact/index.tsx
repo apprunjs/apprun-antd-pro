@@ -11,13 +11,11 @@ export default class ContactComponent extends Component {
       <h1>{state}</h1>
       <Button onClick={() => this.run('add', -1)}>-1</Button>
       <Button onClick={() => this.run('add', +1)}>+1</Button>
-
     </>
   );
 
   update = {
     add: (state, num) => state + num,
-    '/contact': state => state,
   };
 }
 
