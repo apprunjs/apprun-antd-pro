@@ -1,9 +1,8 @@
 import { app, Component } from 'apprun';
-export default class Comic extends Component {
-  state = async () => {
-    const response = await fetch('/api/comic');
-    return response.json();
-  }
+import comic from '../../_/comic';
 
-  view = ({ img }) => img ? <img src={img} /> : `Loading...`;
+export default class Comic extends Component {
+  state = comic;
+
+  view = ({ img, alt }) => img ? <img src={img} alt={alt} /> : `Loading...`;
 }
