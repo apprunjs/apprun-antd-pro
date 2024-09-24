@@ -14,8 +14,8 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "apprun": "^3.33.8",
-    "apprun-site": "^1.3.27",
-    "@ant-design/pro-components": "^2.7.19"
+    "apprun": "^3",
+    "apprun-site": "^1",
+    "@ant-design/pro-components": "^2"
   }
 }
